@@ -1,0 +1,45 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input CreatePostInput {
+  """Author of the file"""
+  author: Int!
+
+  """Post ID"""
+  id: Int!
+
+  """"""
+  post: String!
+}
+
+type Mutation {
+  createPost(payload: CreatePostInput!): Post!
+  removePost(id: Int!): Post!
+  updatePost(payload: UpdatePostInput!): Post!
+}
+
+type Post {
+  """Author of the file"""
+  author: Int!
+
+  """Post ID"""
+  id: Int!
+
+  """"""
+  post: String!
+}
+
+type Query {
+  post(id: Int!): Post!
+  posts: [Post!]!
+}
+
+input UpdatePostInput {
+  """Author of the file"""
+  author: Int
+  id: Int!
+
+  """"""
+  post: String
+}
