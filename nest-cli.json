@@ -18,6 +18,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/gateway/tsconfig.app.json"
       }
+    },
+    "simple-users": {
+      "type": "application",
+      "root": "apps/simple-users",
+      "entryFile": "main",
+      "sourceRoot": "apps/simple-users/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/simple-users/tsconfig.app.json"
+      }
+    },
+    "simple-posts": {
+      "type": "application",
+      "root": "apps/simple-posts",
+      "entryFile": "main",
+      "sourceRoot": "apps/simple-posts/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/simple-posts/tsconfig.app.json"
+      }
     }
   }
 }
