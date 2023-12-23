@@ -1,10 +1,10 @@
 {
   "name": "nestjs-monorepo-graphql-federation",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.0",
+  "description": "My Nest.Js Starter Kit! Using Monorepo, Apollo GraphQL & Federation",
+  "author": "Murat Terzioglu <@muraterzioglu>",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
