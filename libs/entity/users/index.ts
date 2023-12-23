@@ -1,3 +1,3 @@
-import { User } from '@entity/users/user.entity';
+import { User } from './user.entity';
 
 export { User };
