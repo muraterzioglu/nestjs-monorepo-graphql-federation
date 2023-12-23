@@ -3,9 +3,8 @@ import {
   NotFoundException,
   Injectable,
 } from '@nestjs/common';
-import { CreateUserInput } from './dto/create-user.input';
-import { UpdateUserInput } from './dto/update-user.input';
-import { User } from './entities/user.entity';
+import { CreateUserInput, UpdateUserInput } from '@dto/users';
+import { User } from '@entity/users';
 
 @Injectable()
 export class UsersService {
